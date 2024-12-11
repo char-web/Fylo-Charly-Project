@@ -1,0 +1,541 @@
+@media (min-width: 845px) {   
+  * {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    box-sizing: border-box;
+    width: 100%; 
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 400;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    gap: 30px;   
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(238, 22%, 44%);
+}
+
+#sect1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+#heroRight {
+    width: 50%;
+}
+#heroRight img {
+    width: 100%;
+}
+#heroLeft {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 20px;
+}
+#heroLeft input {
+    width: 250px;
+    height: 20px;
+    border: 0.5px solid gray;
+    padding: 8px;
+}
+#heroLeft button {
+    width: 150px;
+    height: 38px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+    border-radius: 3px;
+  }
+  #ibtn {
+    display: flex;
+    gap: 10px;
+  }
+  #ibtn button:hover {
+    cursor: pointer;
+  }
+
+  #sect2 {
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-image: url("./images/bg-curve-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #sect2Cont {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #introLeft {
+    gap: 35px;
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+  }
+
+  #introRight {
+    width: 40%;
+  }
+
+  #introRight img {
+    width: 100%;
+  }
+  #greenText {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    width: fit-content;
+    padding-bottom: 5px;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+  }
+  #greenText p {
+    color: hsl(170, 45%, 43%);
+  }
+
+  #testimonial {
+    background-color: white;
+    box-shadow: 1px 1px 15px hsl(0, 0%, 75%);
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  #testimonial #icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  #testimonial #avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  #testimonial #test-btm {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+
+  #subSect {
+    background-color: hsl(238, 22%, 44%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #subDiv {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #subLeft {
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #subRight {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+    #subRight input {
+        width: 70%;
+        height: 30px;
+        border-radius: 4px;
+        padding-left: 5px;
+      }
+    
+
+      #subRight button {
+        width: 35%;
+        height: 35px;
+        border-radius: 4px;
+        border: none;
+        background-color: hsl(224, 93%, 58%);
+        color: white;
+        padding: 10px;
+      }
+    
+
+#subRight button:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+  .ftMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  .ftMenu a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .ctDiv {
+    display: flex;
+    gap: 10px;
+  }
+
+  .ctDiv img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #ft1 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .headings {
+    font-family: "Raleway", system-ui;
+    font-weight: 700;
+  }
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  #icons {
+    margin-top: 50px;
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+  
+  }
+  }
+
+@media (max-width: 844px) {
+    * {
+      padding: 0;
+      margin: 0;
+    }
+body{
+    width: 100vw;
+    box-sizing: border-box;
+    }
+main {
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 400;
+    }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+#logo img {
+    width: 150px;
+    height: 45px;
+    }
+nav a {
+    text-decoration: none;
+    color:  hsl(238, 22%, 44%);
+    
+    }
+
+    
+#sect1 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 50px;
+}
+#heroRight {
+    margin-top: 40px;
+    width: 100%;
+  }
+  #heroRight img {
+    width: 100%;
+  }
+  #heroLeft {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+#ibtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+
+#heroLeft input {
+    width: 90%;
+    height: 20px;
+    border: 0.5px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  #heroLeft button {
+    width: 100%;
+    height: 45px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+    border-radius: 3px;
+  }
+  #ibtn button:hover {
+    cursor: pointer;
+  }
+
+  #sect2 {
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-image: url("./images/bg-curve-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+#sect2Cont {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+#introRight {
+    width: 100%;
+}
+
+#introRight img {
+    width: 100%;
+    
+}
+
+#introLeft {
+    gap: 25px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+#test-p {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#greenText {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    width: fit-content;
+    padding-bottom: 5px;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+  }
+  
+  #greenText p {
+      color: hsl(170, 45%, 43%);
+  }
+  
+   
+  #testimonial {
+    background-color: white;
+    box-shadow: 1px 1px 15px hsl(0, 0%, 75%);
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+#testimonial #icon {
+    width: 20px;
+    height: 20px;
+}
+
+#testimonial #avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#testimonial #test-btm {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+ 
+#subSect {
+    background-color: hsl(238, 22%, 44%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+#subDiv {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+#subLeft {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#subRight {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+#subRight input {
+    width: 75%;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+#subRight button {
+    width: 76.3%;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    padding: 10px;
+  }
+
+
+  footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 30px;
+    
+  }
+    .ftMenu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 50px;
+      }
+  
+      .ftMenu a {
+        text-decoration: none;
+        color: white;
+      }
+    
+      .ctDiv {
+        display: flex;
+        gap: 10px;
+      }
+    
+      .ctDiv img {
+        width: 20px;
+        height: 20px;
+      }
+      #ft1 {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+      }
+    
+      .headings {
+        font-family: "Raleway", system-ui;
+        font-weight: 700;
+      }
+    
+      .icon {
+        width: 35px;
+        height: 35px;
+      }
+    
+      #icons1{
+        width: 100%;
+        display: flex;
+     
+        justify-content: center;
+      }
+      #icons {
+        margin-top: 50px;
+        display: flex;
+        width: fit-content;
+        gap: 10px;
+      }
+    }
